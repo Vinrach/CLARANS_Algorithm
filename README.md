@@ -1,7 +1,8 @@
 # CLARANS: A Method for Clustering Objects for Spatial Data Mining
-# Raymond T. Ng and Jiawei Han, Member, IEEE Computer Society
+Raymond T. Ng and Jiawei Han, Member, IEEE Computer Society
 
-Abstract—Spatial data mining is the discovery of interesting relationships and characteristics that may exist implicitly in spatial
+# Abstract: 
+Spatial data mining is the discovery of interesting relationships and characteristics that may exist implicitly in spatial
 databases. To this end, this paper has three main contributions. First, we propose a new clustering method called CLARANS, whose
 aim is to identify spatial structures that may be present in the data. Experimental results indicate that, when compared with existing
 clustering methods, CLARANS is very efficient and effective. Second, we investigate how CLARANS can handle not only points
