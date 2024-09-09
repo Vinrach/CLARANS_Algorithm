@@ -11,6 +11,6 @@ convex and nonconvex polygon objects. Third, building on top of CLARANS, we deve
 discover relationships between spatial and nonspatial attributes. Both algorithms can discover knowledge that is difficult to find with
 existing spatial data mining algorithms.
 
-# Re-Implemented 
-Description: Re-implemented the CLARANS clustering algorithm in Python for spatial data analysis, using Matplotlib for visualization.
+# Description: 
+Re-implemented the CLARANS clustering algorithm in Python for spatial data analysis, using Matplotlib for visualization.
             Demonstrated strong analytical and programming skills in machine learning model training and data mining.
