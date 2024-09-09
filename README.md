@@ -11,5 +11,5 @@ discover relationships between spatial and nonspatial attributes. Both algorithm
 existing spatial data mining algorithms.
 
 # Re-Implemented 
-Description: Self-implemented the CLARANS clustering algorithm in Python for spatial data analysis, using Matplotlib for visualization.
+Description: Re-implemented the CLARANS clustering algorithm in Python for spatial data analysis, using Matplotlib for visualization.
             Demonstrated strong analytical and programming skills in machine learning model training and data mining.
