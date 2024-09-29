@@ -31,8 +31,8 @@ The goal is to group universities into clusters that exhibit similar behavior in
 By applying the CLARANS algorithm to this dataset, the universities were grouped into distinct clusters based on the relationship between applications accepted and students enrolled. This allowed us to identify patterns and group universities with similar admission behaviors, helping address the problem of understanding how effectively universities convert accepted applicants into enrolled students.
 
 The CLARANS algorithm was particularly useful for this problem because:
-Randomized Search: It efficiently explored various potential clusters, allowing us to find a solution that minimizes the overall cost (distance between points and their medoids).
-Scalability: Since CLARANS is more scalable than traditional k-medoids, it handled the large dataset well and provided optimal results.
-Interpretability: The results of the clustering can be easily interpreted by universities to better manage their admissions process and improve their enrollment rates.# 
+1. Randomized Search: It efficiently explored various potential clusters, allowing us to find a solution that minimizes the overall cost (distance between points and their medoids).
+2. Scalability: Since CLARANS is more scalable than traditional k-medoids, it handled the large dataset well and provided optimal results.
+3. Interpretability: The results of the clustering can be easily interpreted by universities to better manage their admissions process and improve their enrollment rates.# 
 
 
