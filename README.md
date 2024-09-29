@@ -13,4 +13,4 @@ existing spatial data mining algorithms.
 
 # Description: 
 Re-implemented the CLARANS clustering algorithm in Python for spatial data analysis, using Matplotlib for visualization.
-            Demonstrated strong analytical and programming skills in machine learning model training and data mining.
+Demonstrated strong analytical and programming skills in machine learning model training and data mining.
