@@ -31,6 +31,10 @@ The goal is to group universities into clusters that exhibit similar behavior in
    
 5. Results: The optimal number of clusters is determined to be 6, and the best clustering configuration minimizes the overall cost function to 337,643,399.
 
+# Observation
+1. More clusters reduce the overall cost because the data points are closer to their assigned medoids (or centroids), making the clustering more compact.
+2. Fewer clusters increase the cost because data points are grouped into larger clusters, and many points will be farther from the medoid, leading to higher distances.
+
 # How the Problem Was Solved Using CLARANS:
 By applying the CLARANS algorithm to this dataset, the universities were grouped into distinct clusters based on the relationship between applications accepted and students enrolled. This allowed us to identify patterns and group universities with similar admission behaviors, helping address the problem of understanding how effectively universities convert accepted applicants into enrolled students.
 
