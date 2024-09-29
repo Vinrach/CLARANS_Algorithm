@@ -16,16 +16,14 @@ The goal is to group universities into clusters that exhibit similar behavior in
 
 # Code Explanation:
 1. Data Preprocessing: The data is cleaned by dropping unnecessary columns and any missing values are checked. We create a scatter plot to visualize the relationship between the number of accepted applications and the number of students enrolled
-2. Clarans Algorithm:
--> Initialization: Randomly select a set of initial medoids. 
--> Cluster Assignment: For each medoid, assign data points to the nearest medoid, calculating the Euclidean distance between the points and the medoids.
+2. Clarans Algorithm: 1. Initialization: Randomly select a set of initial medoids. 2. Cluster Assignment: For each medoid, assign data points to the nearest medoid, calculating the Euclidean distance between the points and the medoids.
 -> Cost Calculation: Calculate the total cost (sum of distances between points and their closest medoid) for the current clustering configuration.
 -> Randomized Neighbor Search: The algorithm explores random neighboring configurations (by swapping medoids with non-medoids) to see if a better solution (lower cost) can be found. If a better solution is found, it 
    becomes the current solution.
 -> Iteration: The process is repeated for a fixed number of neighbors and local minima to ensure that a good solution is reached.
-3. Hyperparameter Tuning: A grid search approach is used to identify the best combination of hyperparameters by running the CLARANS algorithm for each combination and comparing the resulting costs.
-4. Best Cluster Identification: After tuning the hyperparameters, the best medoids and cluster assignments are identified. A visualization of the clusters is created.
-5. Results: The optimal number of clusters is determined to be 6, and the best clustering configuration minimizes the overall cost function to 337,643,399.
+4. Hyperparameter Tuning: A grid search approach is used to identify the best combination of hyperparameters by running the CLARANS algorithm for each combination and comparing the resulting costs.
+5. Best Cluster Identification: After tuning the hyperparameters, the best medoids and cluster assignments are identified. A visualization of the clusters is created.
+6. Results: The optimal number of clusters is determined to be 6, and the best clustering configuration minimizes the overall cost function to 337,643,399.
 
 # How the Problem Was Solved Using CLARANS:
 By applying the CLARANS algorithm to this dataset, the universities were grouped into distinct clusters based on the relationship between applications accepted and students enrolled. This allowed us to identify patterns and group universities with similar admission behaviors, helping address the problem of understanding how effectively universities convert accepted applicants into enrolled students.
