@@ -18,12 +18,12 @@ The goal is to group universities into clusters that exhibit similar behavior in
 1. Data Preprocessing: The data is cleaned by dropping unnecessary columns and any missing values are checked. We create a scatter plot to visualize the relationship between the number of accepted applications and the number of students enrolled
    
 2. Clarans Algorithm:
--> Initialization: Randomly select a set of initial medoids.
--> Cluster Assignment: For each medoid, assign data points to the nearest medoid, calculating the Euclidean distance between the points and the medoids.
--> Cost Calculation: Calculate the total cost (sum of distances between points and their closest medoid) for the current clustering configuration.
--> Randomized Neighbor Search: The algorithm explores random neighboring configurations (by swapping medoids with non-medoids) to see if a better solution (lower cost) can be found. If a better solution is found, it 
+  1. Initialization: Randomly select a set of initial medoids.
+  2. Cluster Assignment: For each medoid, assign data points to the nearest medoid, calculating the Euclidean distance between the points and the medoids.
+  3. Cost Calculation: Calculate the total cost (sum of distances between points and their closest medoid) for the current clustering configuration.
+  4. Randomized Neighbor Search: The algorithm explores random neighboring configurations (by swapping medoids with non-medoids) to see if a better solution (lower cost) can be found. If a better solution is found, it 
    becomes the current solution.
--> Iteration: The process is repeated for a fixed number of neighbors and local minima to ensure that a good solution is reached.
+  5. Iteration: The process is repeated for a fixed number of neighbors and local minima to ensure that a good solution is reached.
    
 3. Hyperparameter Tuning: A grid search approach is used to identify the best combination of hyperparameters by running the CLARANS algorithm for each combination and comparing the resulting costs.
    
