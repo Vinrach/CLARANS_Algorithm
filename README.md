@@ -18,7 +18,7 @@ The goal is to group universities into clusters that exhibit similar behavior in
 1. Data Preprocessing: The data is cleaned by dropping unnecessary columns and any missing values are checked. We create a scatter plot to visualize the relationship between the number of accepted applications and the number of students enrolled
    
 2. Clarans Algorithm:
-  1. Initialization: Randomly select a set of initial medoids.
+   *  Initialization: Randomly select a set of initial medoids.
   2. Cluster Assignment: For each medoid, assign data points to the nearest medoid, calculating the Euclidean distance between the points and the medoids.
   3. Cost Calculation: Calculate the total cost (sum of distances between points and their closest medoid) for the current clustering configuration.
   4. Randomized Neighbor Search: The algorithm explores random neighboring configurations (by swapping medoids with non-medoids) to see if a better solution (lower cost) can be found. If a better solution is found, it 
